@@ -22,10 +22,10 @@ Se utilizó el dataset **Chest X-Ray Images (Pneumonia)**.
 ## 📊 Rendimiento del Modelo
 Los modelos fueron evaluados priorizando la métrica de **Recall (Sensibilidad)**, crítica en medicina para minimizar los falsos negativos.
 
-| Arquitectura | Accuracy | Recall (Clase Pneumonia) | F1-Score |
-|--------------|----------|--------------------------|----------|
-| **CNN (ResNet)** | [PONER %] | [PONER %] | [PONER %] |
-| **Vision Transformer**| [PONER %] | [PONER %] | [PONER %] |
+| Arquitectura | Accuracy | Recall (Clase Pneumonia) | 
+|--------------|----------|--------------------------|
+| **CNN (ResNet)** | 85 % | 99.74 % | 
+| **Vision Transformer**| 87 % | 99.49 % | 
 
 ### Visualización de Resultados
 Matriz de confusión mostrando el desempeño en el conjunto de test:
@@ -47,4 +47,4 @@ Para validar que el modelo no aprende sesgos espurios, se utilizó **Grad-CAM**.
 
 1. Clonar el repositorio:
    ```bash
-   git clone [https://github.com/](https://github.com/)[TU_USUARIO]/pneumonia-classification-project.git
+   git clone [https://github.com/](https://github.com/)[pablomargal]/pneumonia-classification-project.git
